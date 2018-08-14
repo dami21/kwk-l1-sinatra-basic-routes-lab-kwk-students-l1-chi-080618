@@ -5,6 +5,9 @@ class App < Sinatra::Base
   "My name is Dami!"
   end
   get '/' do
-  "Hello, World!"
+  "My hometown is Schaumburg"
+  end
+  get '/' do
+  "my favorite-song is Goat!"
   end
 end
